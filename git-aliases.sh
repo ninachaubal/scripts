@@ -12,4 +12,4 @@ git config --global alias.rebase '!f() { git checkout $1; git rebase master; }; 
 
 git config --global alias.like '!f() { git reset --hard $1; }; f'
 
-git config --global alias.undo 'git reset HEAD~1'
+git config --global alias.undo 'reset HEAD~1'
